@@ -1,162 +1,41 @@
 {
-  "Sunset": [
+  "Phone": [
     {
-      "width": 1500,
-      "path": "./photos/Sunset/DSCF3620.jpg",
-      "height": 2000
+      "width": -1,
+      "height": -1,
+      "path": "./photos/Phone/phys_classroom.jpg"
     },
     {
-      "width": 1600,
-      "path": "./photos/Sunset/DSCF5784.jpg",
-      "height": 2000
+      "width": -1,
+      "height": -1,
+      "path": "./photos/Phone/ev3.jpeg"
     },
     {
-      "width": 1600,
-      "path": "./photos/Sunset/DSCF6512.jpg",
-      "height": 2000
-    }
-  ],
-  "Travel": [
-    {
-      "width": 1500,
-      "path": "./photos/Travel/20160406-20160505DSCF2086.jpg",
-      "height": 2000
+      "width": -1,
+      "height": -1,
+      "path": "./photos/Phone/dc.jpeg"
     },
     {
-      "width": 1500,
-      "path": "./photos/Travel/20160407-20160506DSCF2292.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Travel/IMG_7438.jpg",
-      "height": 1333
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Travel/IMG_7575.jpg",
-      "height": 1500
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Travel/IMG_7593.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Travel/IMG_9227.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Travel/IMG_9675.jpg",
-      "height": 1333
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Travel/IMG_9863.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Travel/IMG_9966.jpg",
-      "height": 2000
-    }
-  ],
-  "California": [
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF1894.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF2338.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF3168.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF3621.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1600,
-      "path": "./photos/California/DSCF4538.jpg",
-      "height": 2000
-    }
-  ],
-  "Architecture": [
-    {
-      "width": 1333,
-      "path": "./photos/Architecture/DSCF7277.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Architecture/DSCF7382.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1600,
-      "path": "./photos/Architecture/DSCF7399.jpg",
-      "height": 2000
+      "width": -1,
+      "height": -1,
+      "path": "./photos/Phone/mc_comfy.jpeg"
     }
   ],
   "People": [
     {
-      "width": 2000,
-      "path": "./photos/People/DSCF0589.jpg",
-      "height": 1500
+      "width": -1,
+      "height": -1,
+      "path": "./photos/People/relay-for-life.jpg"
     },
     {
-      "width": 1500,
-      "path": "./photos/People/DSCF0802.jpg",
-      "height": 2000
+      "width": -1,
+      "height": -1,
+      "path": "./photos/People/christmas-party.jpg"
     },
     {
-      "width": 2000,
-      "path": "./photos/People/DSCF0989.jpg",
-      "height": 1500
-    },
-    {
-      "width": 1500,
-      "path": "./photos/People/DSCF1981.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/People/DSCF3276.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/People/DSCF3315.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/People/DSCF3356.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/People/DSCF5996.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1600,
-      "path": "./photos/People/DSCF6786.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/People/IMG_7888.jpg",
-      "height": 1250
+      "width": -1,
+      "height": -1,
+      "path": "./photos/People/kyle-ace.jpg"
     }
   ]
 }
