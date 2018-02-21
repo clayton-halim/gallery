@@ -34,7 +34,6 @@ def get_images(path):
     for img in filtered_items:
         width, height = 0, 0
         with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
-            print(img)
             _, width, height = getImageInfo(f.read())
         result.append({
             'width': width,
@@ -81,9 +80,6 @@ def getImageInfo(data):
     height = -1
     width = -1
     content_type = ''
-
-    print(type(data))
-    print(data[:20])
 
     # See PNG 2. Edition spec (http://www.w3.org/TR/PNG/)
     # Bytes 0-7 are below, 4-byte chunk length, then 'IHDR'
@@ -134,8 +130,6 @@ def getImageInfo(data):
             pass
         except ValueError:
             pass
-    else:
-        print("No appropriate file format")
 
     return content_type, width, height
 
