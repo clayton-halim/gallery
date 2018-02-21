@@ -1,40 +1,40 @@
 {
   "Phone": [
     {
-      "width": -1,
-      "height": -1,
+      "width": 3024,
+      "height": 4032,
       "path": "./photos/Phone/phys_classroom.jpg"
     },
     {
-      "width": -1,
-      "height": -1,
+      "width": 4032,
+      "height": 3024,
       "path": "./photos/Phone/ev3.jpeg"
     },
     {
-      "width": -1,
-      "height": -1,
+      "width": 2708,
+      "height": 3610,
       "path": "./photos/Phone/dc.jpeg"
     },
     {
-      "width": -1,
-      "height": -1,
+      "width": 3977,
+      "height": 2651,
       "path": "./photos/Phone/mc_comfy.jpeg"
     }
   ],
   "People": [
     {
-      "width": -1,
-      "height": -1,
+      "width": 3265,
+      "height": 4898,
       "path": "./photos/People/relay-for-life.jpg"
     },
     {
-      "width": -1,
-      "height": -1,
+      "width": 4659,
+      "height": 3106,
       "path": "./photos/People/christmas-party.jpg"
     },
     {
-      "width": -1,
-      "height": -1,
+      "width": 4898,
+      "height": 3265,
       "path": "./photos/People/kyle-ace.jpg"
     }
   ]
