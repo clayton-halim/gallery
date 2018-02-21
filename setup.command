@@ -1,18 +1,19 @@
 #!/usr/bin/env python
 
 try:
-    import StringIO
+    from StringIO import StringIO as sbIO
 except ImportError:
-    import io as StringIO
+    from io import BytesIO as sbIO
 import struct
 import os
 import sys
 import json
 
-PATH = os.path.dirname(sys.argv[0]) + '/'
+PATH = os.getcwd() + '/'
 RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 
+print(PATH)
 
 def get_directories():
     items = os.listdir(PHOTO_PATH)
@@ -33,6 +34,7 @@ def get_images(path):
     for img in filtered_items:
         width, height = 0, 0
         with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
+            print(img)
             _, width, height = getImageInfo(f.read())
         result.append({
             'width': width,
@@ -75,32 +77,26 @@ https://github.com/andyzg/gallery/issues/1''')
 # Thanks StackOverflow: http://stackoverflow.com/a/3175473 #
 ############################################################
 def getImageInfo(data):
-    data = str(data)
     size = len(data)
     height = -1
     width = -1
     content_type = ''
 
-    # handle GIFs
-    if (size >= 10) and data[:6] in ('GIF87a', 'GIF89a'):
-        # Check to see if content_type is correct
-        content_type = 'image/gif'
-        w, h = struct.unpack("<HH", data[6:10])
-        width = int(w)
-        height = int(h)
+    print(type(data))
+    print(data[:20])
 
     # See PNG 2. Edition spec (http://www.w3.org/TR/PNG/)
     # Bytes 0-7 are below, 4-byte chunk length, then 'IHDR'
     # and finally the 4-byte width, height
-    elif ((size >= 24) and data.startswith('\211PNG\r\n\032\n') and
-          (data[12:16] == 'IHDR')):
+    if ((size >= 24) and data.startswith(b'\211PNG\r\n\032\n') and
+          (data[12:16] == b'IHDR')):
         content_type = 'image/png'
         w, h = struct.unpack(">LL", data[16:24])
         width = int(w)
         height = int(h)
 
     # Maybe this is for an older PNG version.
-    elif (size >= 16) and data.startswith('\211PNG\r\n\032\n'):
+    elif (size >= 16) and data.startswith(b'\211PNG\r\n\032\n'):
         # Check to see if we have the right content type
         content_type = 'image/png'
         w, h = struct.unpack(">LL", data[8:16])
@@ -108,9 +104,15 @@ def getImageInfo(data):
         height = int(h)
 
     # handle JPEGs
-    elif (size >= 2) and data.startswith('\377\330'):
+    # elif (size >= 2) and data.startswith('\377\330'):
+    elif (size >= 2) and data.startswith(b'\xff\xd8'):
         content_type = 'image/jpeg'
-        jpeg = StringIO.StringIO(data)
+        
+        try:
+            jpeg = sbIO(data)
+        except:
+            jpeg = sbIO(str(data))
+        
         jpeg.read(2)
         b = jpeg.read(1)
         try:
@@ -132,6 +134,8 @@ def getImageInfo(data):
             pass
         except ValueError:
             pass
+    else:
+        print("No appropriate file format")
 
     return content_type, width, height
 
