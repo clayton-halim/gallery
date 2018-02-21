@@ -1,4 +1,222 @@
 {
+  "Candid": [
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/rock-paper-scissors.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/pied-1.jpg-50p.jpg"
+    },
+    {
+      "width": 5111,
+      "height": 2119,
+      "path": "./photos/Candid/calebs-band.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/gill-grace-acro.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/holding-the-boat.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/grace-fiona-candid.jpg-50p.jpg"
+    },
+    {
+      "width": 3036,
+      "height": 4554,
+      "path": "./photos/Candid/big-boolean.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/calvin-without-hobbes.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/alice-joyce-mo.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/mod-brigade.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/jeff-on-the-river.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/canoe-to-the-distance.jpg-50p.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 2310,
+      "path": "./photos/Candid/no-problems.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/math-orientation.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/thirsty.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Candid/math-dance-stage.jpg-50p.jpg"
+    }
+  ],
+  "Group Shots": [
+    {
+      "width": 3265,
+      "height": 4898,
+      "path": "./photos/Group Shots/relay-for-life.jpg"
+    },
+    {
+      "width": 2968,
+      "height": 4452,
+      "path": "./photos/Group Shots/aaron-nicole-ace.jpg-50p.jpg"
+    },
+    {
+      "width": 2895,
+      "height": 4343,
+      "path": "./photos/Group Shots/spice-girls.jpg-50p.jpg"
+    },
+    {
+      "width": 3265,
+      "height": 4898,
+      "path": "./photos/Group Shots/beach-heart.jpg-50p.jpg"
+    },
+    {
+      "width": 4659,
+      "height": 3106,
+      "path": "./photos/Group Shots/christmas-party.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Group Shots/bringing-the-coffee.jpg-50p.jpg"
+    },
+    {
+      "width": 3265,
+      "height": 4898,
+      "path": "./photos/Group Shots/photobros.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Group Shots/yes-problems.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Group Shots/raph-and-june.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Group Shots/ace-fam.jpg-50p.jpg"
+    }
+  ],
+  "Landscapes": [
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/athens.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/la-sagrada-familia.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/spain-mountains.jpg-50p.jpg"
+    },
+    {
+      "width": 4622,
+      "height": 3081,
+      "path": "./photos/Landscapes/cruise-in-the-mountains.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/positano.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/kings-landing.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/florence2.jpg-50p.jpg"
+    },
+    {
+      "width": 4056,
+      "height": 2704,
+      "path": "./photos/Landscapes/waterloo-park.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Landscapes/florence.jpg-50p.jpg"
+    },
+    {
+      "width": 3008,
+      "height": 2000,
+      "path": "./photos/Landscapes/sea.jpeg-50p.jpg"
+    }
+  ],
+  "Lights": [
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Lights/spinny-ride.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Lights/sparklers.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Lights/infinity.jpg-50p.jpg"
+    },
+    {
+      "width": 3008,
+      "height": 2000,
+      "path": "./photos/Lights/stars.jpeg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Lights/fireworks1.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Lights/fireworks2.jpg-50p.jpg"
+    }
+  ],
   "Phone": [
     {
       "width": 3024,
@@ -16,26 +234,158 @@
       "path": "./photos/Phone/dc.jpeg"
     },
     {
+      "width": 4032,
+      "height": 3024,
+      "path": "./photos/Phone/whats-your-idea.jpg-50p.jpg"
+    },
+    {
+      "width": 4032,
+      "height": 3024,
+      "path": "./photos/Phone/mcs2.jpeg-50p.jpg"
+    },
+    {
+      "width": 2368,
+      "height": 3200,
+      "path": "./photos/Phone/bud-the-buoy.jpg-50p.jpg"
+    },
+    {
       "width": 3977,
       "height": 2651,
       "path": "./photos/Phone/mc_comfy.jpeg"
-    }
-  ],
-  "People": [
-    {
-      "width": 3265,
-      "height": 4898,
-      "path": "./photos/People/relay-for-life.jpg"
     },
     {
-      "width": 4659,
-      "height": 3106,
-      "path": "./photos/People/christmas-party.jpg"
+      "width": 3024,
+      "height": 4032,
+      "path": "./photos/Phone/mcs1.jpeg-50p.jpg"
+    }
+  ],
+  "Portraits": [
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/unamused.jpg-50p.jpg"
     },
     {
       "width": 4898,
       "height": 3265,
-      "path": "./photos/People/kyle-ace.jpg"
+      "path": "./photos/Portraits/sam-in-paris3.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/hong-an-watermelon.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/sam-in-paris2.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/praty-mc.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/sam-by-the-mountains.jpg-50p.jpg"
+    },
+    {
+      "width": 4695,
+      "height": 3129,
+      "path": "./photos/Portraits/fiona-skates.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/nicole-ace.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/christmas-june.jpg-50p.jpg"
+    },
+    {
+      "width": 4032,
+      "height": 2688,
+      "path": "./photos/Portraits/kulnita-sings.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/stan-canoe.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3266,
+      "path": "./photos/Portraits/beach-herry.jpg-50p.jpg"
+    },
+    {
+      "width": 5183,
+      "height": 3028,
+      "path": "./photos/Portraits/ryan-fights.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/sam-by-the-water.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/sam-by-the-garage.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/glassess-raph.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/sam-in-paris.jpg-50p.jpg"
+    },
+    {
+      "width": 3265,
+      "height": 4898,
+      "path": "./photos/Portraits/hong-an-prom.jpg-50p.jpg"
+    },
+    {
+      "width": 3265,
+      "height": 4898,
+      "path": "./photos/Portraits/in-the-weeds.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Portraits/cold-raph.jpg-50p.jpg"
+    }
+  ],
+  "Things": [
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Things/water-melon.jpg-50p.jpg"
+    },
+    {
+      "width": 4583,
+      "height": 3015,
+      "path": "./photos/Things/thank-mr-goose.jpg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Things/boat-on-lake.jpg-50p.jpg"
+    },
+    {
+      "width": 2000,
+      "height": 3008,
+      "path": "./photos/Things/boats.jpeg-50p.jpg"
+    },
+    {
+      "width": 4898,
+      "height": 3265,
+      "path": "./photos/Things/dog-catch.jpg-50p.jpg"
     }
   ]
 }

@@ -8,16 +8,6 @@ body {
   width: 90%;
 }
 
-.header {
-  margin-top: 124px;
-  margin-bottom: 32px;
-
-  font-size: 30px;
-  font-weight: 900;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
 section {
   margin-bottom: 128px;
 }
@@ -33,10 +23,11 @@ section img.img-loaded {
 }
 
 h3 {
-  margin-bottom: 36px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   color: #666;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
@@ -63,4 +54,57 @@ h3 {
 
 .author:hover {
   color: #0099CC;
+}
+
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  font-family: "monospace", "courier";
+}
+
+.hlist {
+    list-style-type: none;
+}
+
+.hlist-item {
+    display: inline;
+}
+
+#tag-list {
+  font-size: 75%;
+  margin-bottom: 6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FF80AB;
+    transition: 0.2s color;
+}
+
+.accent {
+    color: #FF80AB;
+}
+
+.hover-accent:hover {
+    color: black;
+}
+
+.header {
+  margin-top: 124px;
+  margin-bottom: 32px;
+  margin-left: 0.2rem;
+
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.header-link {
+  color: black;
 }

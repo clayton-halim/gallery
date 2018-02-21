@@ -17,7 +17,7 @@ print(PATH)
 
 def get_directories():
     items = os.listdir(PHOTO_PATH)
-    return list(filter(lambda x: os.path.isdir(PHOTO_PATH + '/' + x), items))
+    return sorted(list(filter(lambda x: os.path.isdir(PHOTO_PATH + '/' + x), items)))
 
 
 def is_image_path(path):
@@ -52,6 +52,11 @@ def run():
     print('Starting to collect all albums within the /photos directory...')
     config = {}
     dirs = get_directories()
+
+    with open(os.path.join("_data", "tags.yaml"), "w") as tags_file:
+        for d in dirs:
+            print("- tag: {}".format(d), file=tags_file)
+
     print('Found {length} directories'.format(length=len(dirs)))
     for i, path in enumerate(dirs):
         print(str(i+1) + ': Processing photos for the album "{album}"'.format(
